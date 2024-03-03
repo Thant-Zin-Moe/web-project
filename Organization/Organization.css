@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+#img1 {
+  max-width: 100;
+  max-height: 100%;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h2 {
+  color: rgb(254, 76, 254);
+}
+blockquote {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 5%;
+  text-align: justify;
+}
+h3 {
+  margin-left: 3%;
+  color: rgb(254, 76, 254);
+}
+p {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+}
+h4 {
+  color: blueviolet;
+}
+a {
+  text-decoration: none;
+  color: chocolate;
+}

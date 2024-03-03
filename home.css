@@ -1,0 +1,260 @@
+#background {
+  background: url(./image/background4.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#logo {
+  height: 70px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 4px;
+  border-radius: 20px;
+}
+
+#VOLANT {
+  text-align: center;
+}
+
+#headbar {
+  background-color: #e5d6d6;
+  border: #fafcf8 1px solid;
+}
+
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+nav.dropmenu {
+  background-color: #e5d6d6;
+}
+
+nav.dropmenu ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav.dropmenu li {
+  position: relative;
+}
+
+nav.dropmenu > ul > li {
+  background-color: #e5d6d6;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  z-index: 2;
+}
+
+nav.dropmenu > ul > li > a {
+  text-decoration: none;
+  color: #635896;
+  display: block;
+}
+
+nav.dropmenu > ul > li:hover {
+  background-color: #e7eff1;
+}
+
+/* Style the dropdown menus */
+nav.dropmenu ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #555;
+  width: 200px;
+}
+
+nav.dropmenu ul li:hover > ul {
+  display: inherit;
+}
+
+nav.dropmenu ul ul li {
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+nav.dropmenu ul ul a {
+  color: #090909;
+  text-decoration: none;
+}
+
+nav.dropmenu ul ul li:hover {
+  background-color: #777;
+}
+
+header {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 44px;
+  color: #030304;
+}
+
+#subAv,
+#subAc,
+#sunSS,
+#sunN {
+  background-color: #8c7f7f;
+}
+
+#subAv a,
+#subAc a,
+#sunSS a,
+#sunN a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  color: #4ae6e0;
+}
+
+.h11 {
+  color: rgb(245, 242, 241);
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px 40px;
+}
+
+.h33 {
+  color: rgb(245, 242, 241);
+  font-size: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 40px;
+}
+
+.h11,
+.h33,
+.h22,
+.ImgP {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: slideInUp 1.5s ease-out;
+}
+
+@keyframes slideInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+#Courses {
+  text-decoration: none;
+  margin-left: 580px;
+  margin-top: 200px;
+  border: #fafcf8 5px solid;
+  padding: 20px;
+  color: rgb(246, 238, 24);
+  font-size: 30px;
+  background-color: rgb(110, 116, 169);
+}
+
+#Courses:hover {
+  background-color: whitesmoke;
+}
+
+.ImgP {
+  margin: 260px 12px 20px 12px;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.left,
+.right {
+  width: 40%;
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+.info {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.readMore {
+  color: rgb(231, 231, 241);
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid green;
+  padding: 12px 12px;
+  margin-left: 500px;
+  margin-top: 50px;
+  border-radius: 5px;
+  background-color: #555;
+}
+
+.readMore:hover {
+  background-color: red;
+}
+
+/**/
+.faq-container {
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+label {
+  display: block;
+  background-color: #7cc9f3;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.answer {
+  display: none;
+  padding: 10px;
+  border: 2px solid #ccc;
+}
+
+input[type="checkbox"]:checked + label + .answer {
+  display: block;
+}
+
+.answer > p {
+  color: rgb(64, 41, 41);
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*number of student*/
+#NOSth {
+  color: #5e5e6d;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+#NOStd {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+}
+
+footer {
+  min-height: 30vh;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,26 @@
+#award3 {
+  float: right;
+  left: 12px;
+  border-radius: 20px;
+  border: 4px solid burlywood;
+}
+.div1,
+.div2,
+.div3 {
+  display: inline-block;
+  width: 31%;
+  margin: 3px 2px;
+}
+span {
+  margin-left: 20px;
+  margin-right: 200px;
+  text-align: justify;
+  font-size: larger;
+}
+h1 {
+  color: blue;
+}
+h6 {
+  color: brown;
+  font-style: initial;
+}

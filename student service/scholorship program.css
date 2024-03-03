@@ -1,0 +1,6 @@
+
+h1{color:rgb(166, 116, 213);}
+#wrapper{font-family:Georgia, 'Times New Roman', Times, serif;}
+h1{background-color: aquamarine;padding: 30px;border:5px dotted green;text-align:center;}
+#leftimg{margin-top:29px;border:4px dashed rgb(79, 90, 212);float:left; }
+#rightcolumn{margin-top:29px;margin-left:600px;float:right;}

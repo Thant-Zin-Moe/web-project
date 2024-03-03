@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>registration</title>
+    <link rel="stylesheet" href="./commonstyle.css">
+    <link rel="icon" href="./image/icon1.jpg" />
+    <style>
+    label{float:left;clear:left;width:250px;padding:5px;margin-top:5px;} 
+
+    
+   
+
+    body{background-color:rgb(55, 150, 166);
+    max-width:100%;
+    margin: 0px auto;}
+
+        #divr{display:flex;
+        justify-content: center;
+         text-align:center;
+         margin-top:30px;
+         font-size:25px;}
+
+input{font-size:20px;}
+
+.red-button{background-color:rgb(77, 77, 204);
+    color:rgb(114, 9, 9);
+    width:95px;
+    height:35px;}
+.blue-button{background-color:rgb(66, 165, 66);
+    color:#732c2c;
+    width:95px;
+    height:35px;}
+
+    </style>
+
+ </head>
+ <boby>
+    <div>
+        <nav class="dropmenu">
+          <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li id="av">
+              About Volant
+              <ul id="subAv">
+                <li><a href="./History/History1.html">History</a></li>
+                <li><a href="./Vision & Mission/Vision&Mission.html">Missiom & Vision</a></li>
+                <li>
+                  <a href="./Organization/Organization.html">Organization</a>
+                </li>
+              </ul>
+            </li>
+            <li id="ac">
+              Academic
+              <ul id="subAc">
+                <li><a href="./Academic Calendar.html">Academic Calendar</a></li>
+                <li><a href="./dehp.html">Academic Program</a></li>
+                <li><a href="./admissionsandrules.html">Academic Admission and Rules</a></li>
+                
+              </ul>
+            </li>
+            <li id="ss">
+              Student Services
+              <ul id="sunSS">
+                <li>
+                  <a href="./student service/scholorship program.html"
+                    >Scholarship Program</a
+                  >
+                </li>
+                <li><a href="./careerIntership.html">Career Counselling</a></li>
+                <li><a href="./student service/club.html">Activity Club</a></li>
+                <li><a href="./registration.html">Student Registration</a></li>
+              </ul>
+            </li>
+            <li id="n">
+              News
+              <ul id="sunN">
+                <li>
+                  <a href="./University Announcement.html"
+                    >University Announcement</a
+                  >
+                </li>
+                <li><a href="./local.html">Local </a></li>
+                <li><a href="./global.html">Global</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+   <img src="./image/registration.jpg"  alt="Students Registration"height="500px" width="100%">
+    <div id="divr"><form name="form1" form_action="/action_page.php" method="post">
+        
+        <label>Name:</label>
+<input type="text"  name="name" required="required" oninput="invalid1()" placeholder="Enter your name" ><br><br>
+
+<label>Birth Date:</label>
+<input  type="date" name="BD" required="required"><br><br>
+<label>Gender :</label>
+Male<input type="radio" name="Gender">
+Female<input   type="radio"name="Gender"><br><br>
+
+<label>Phone Number:</label>
+<input type="tel" name="phoneNumber" oninput="invalid2()"><br><br>
+
+<label>Current Address:</label>
+<input type="text" name="address" required="required"><br><br>
+
+<label>E-mail:</label>
+<input type="e-mail" name="e-mail" required="required" placeholder="xxx@gmail.com"><br><br>
+
+<label>Password:</label>
+<input type="password" name="password" action="/action_page.php" method="post" ><br><br>
+
+<input  type="submit" name="register" value="register"  class="red-button"  onclick="invalid()">
+<input   type="reset" name="cancel" value="cancel" class="blue-button">
+</form></div>
+
+ <script>
+    function RegExpIs_valid(text)
+    {var myRegExp=/[a-z]/i;
+     return!(myRegExp.test(text));
+    }
+
+function invalid1()
+{if(RegExpIs_valid(document.form1.name.value)==false)
+{alert("Your name contains one or more invalid characters");
+}}
+function invalid()
+{if(RegExpIs_valid(document.form1.register.value)==true)
+
+{alert("Your registration form is successfully completed");}}
+
+function RegExpIs_valid(number)
+    {var myRegExp=/[0-10]/g;
+     return!(myRegExp.test(number));
+    }
+
+function invalid2()
+{if(RegExpIs_valid(document.form1.phoneNumber.value)==true)
+{alert("Your phone number contains one or more invalid characters");
+}}
+ </script>
+ <br><br><br><br>
+ <p style="text-align: center; margin-top: 10px;">&copy;by VOLANT UNIVERSITY</p>
+</body>
+</html>

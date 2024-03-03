@@ -1,0 +1,13 @@
+#head {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.ExcursionImg {
+  border: 3px solid rgb(153, 147, 153);
+  border-radius: 3px;
+  margin: 2px 10px;
+}
+#BQexcersion {
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}

@@ -1,0 +1,23 @@
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+}
+.leftIMg {
+  margin: 5px 10px;
+  float: left;
+  border: 5px solid black;
+  height: 280px;
+  width: 400px;
+}
+#div2 {
+  margin-top: 100px;
+}
+th {
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  text-indent: 5px;
+}
+
+a:hover {
+  background-color: brown;
+}

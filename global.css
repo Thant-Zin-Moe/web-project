@@ -1,0 +1,24 @@
+#globalLogo {
+  margin-left: 170px;
+  width: 60%;
+}
+
+#left,
+#right {
+  display: inline-block;
+  width: 45%;
+  margin-left: 60px;
+}
+.imgBorder {
+  border: 5px solid black;
+}
+h3 {
+  text-align: justify;
+}
+.view {
+  text-decoration: none;
+  background-color: yellowgreen;
+  color: rgb(112, 50, 205);
+  border: 5px solid;
+  padding: 7px 80px;
+}

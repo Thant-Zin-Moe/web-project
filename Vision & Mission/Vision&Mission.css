@@ -1,0 +1,44 @@
+body
+{
+    background-color: rgb(255, 255, 255);
+}
+#ua
+{
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 80%;
+    margin-left: 30%;
+
+}
+.Animg
+{
+    float: left;
+    margin-right: 35px;
+    border: solid;
+}
+#div2
+{
+    margin-top: 50px;
+}
+#div3
+{
+    margin-top: 170px;
+}
+h1
+{
+    color: rgb(252, 101, 242);
+    font-family:'Times New Roman', Times, serif;
+    
+    text-align: center;
+}
+h2
+{
+    color: rgb(235, 59, 255);
+}
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 25px;
+    text-align: justify;
+    font-size: large;
+}

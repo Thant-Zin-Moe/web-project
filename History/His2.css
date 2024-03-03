@@ -1,0 +1,49 @@
+body
+{
+    background-color: rgb(255, 255, 255);
+}
+#ua
+{
+    margin: 0 auto;
+    width: 700px;
+    height: 350px;
+    margin-left:400px;
+    align-items: center;
+    border: solid;
+}
+h1
+{
+    color: rgb(252, 101, 242);
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: xx-large;
+}
+h3
+{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+p
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: justify;
+}
+mark
+{
+    color: violet;
+}
+a:link 
+{
+    color: rgb(252, 101, 242);
+}
+a:visited
+{
+    color:chocolate;
+}
+a:hover
+{
+    color:black;
+}

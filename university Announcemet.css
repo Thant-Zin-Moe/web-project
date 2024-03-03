@@ -1,0 +1,26 @@
+#ua {
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 80%;
+}
+.AnImg {
+  float: left;
+  margin-right: 35px;
+  border: solid;
+}
+#div2 {
+  margin-top: 50px;
+}
+#div3 {
+  margin-top: 170px;
+}
+h3 {
+  color: red;
+}
+h6 {
+  color: yellowgreen;
+  font-style: oblique;
+}
+blockquote {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

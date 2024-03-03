@@ -1,0 +1,92 @@
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+nav.dropmenu {
+  background-color: #e5d6d6;
+}
+
+nav.dropmenu ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav.dropmenu li {
+  position: relative;
+}
+
+nav.dropmenu > ul > li {
+  background-color: #e5d6d6;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  z-index: 2;
+}
+
+nav.dropmenu > ul > li > a {
+  text-decoration: none;
+  color: #635896;
+  display: block;
+}
+
+/* Hover effect for main menu items */
+nav.dropmenu > ul > li:hover {
+  background-color: #e7eff1;
+}
+
+nav.dropmenu ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #555;
+  width: 200px;
+}
+
+nav.dropmenu ul li:hover > ul {
+  display: inherit;
+}
+
+nav.dropmenu ul ul li {
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+nav.dropmenu ul ul a {
+  color: #090909;
+  text-decoration: none;
+}
+
+nav.dropmenu ul ul li:hover {
+  background-color: #777;
+}
+
+header {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 44px;
+  color: #030304;
+}
+
+/* Styles for specific submenus */
+#subAv,
+#subAc,
+#sunSS,
+#sunN {
+  background-color: #8c7f7f;
+}
+
+#subAv a,
+#subAc a,
+#sunSS a,
+#sunN a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  color: #4ae6e0; /* Change the text color for submenu links as needed */
+}

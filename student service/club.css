@@ -1,0 +1,62 @@
+#container {
+  background-color: rgb(156, 118, 190);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: 3px solid dashed;
+  max-width: 100%;
+  color: rgb(28, 57, 54);
+}
+header {
+  background-color: rgb(156, 118, 190);
+  padding: 50px;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  width: 500px;
+  height: 25px;
+  color: rgb(23, 228, 81);
+  font-size: 5px;
+}
+
+h1 {
+  display: flex;
+  color: rgb(80, 10, 142);
+}
+#leftcol {
+  float: left;
+}
+
+#rightcol {
+  float: right;
+}
+
+.float1 {
+  float: left;
+  margin-right: 30px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.float2 {
+  float: right;
+  margin-left: 200px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+#godness {
+  float: right;
+}
+#thanks {
+  float: right;
+}
+#hood {
+  float: right;
+}
+#best {
+  float: right;
+}

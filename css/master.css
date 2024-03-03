@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+h2{
+    padding: 20px;
+    padding-bottom: 40px;
+    font-size: 3rem;
+}
+
+h3{
+    color: #ee0fea;
+}
+
+.admin{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+
+.admin .img{
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.admin .img img{
+    width: 45vw;
+    height: 80vh;
+}
+
+.admin .para{
+    padding-right: 50px;
+}
+
+.admin .para p{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.admin .para ul{
+    padding-left: 60px;
+}
+
+.admin .para ul li{
+    list-style-type:circle;
+}
+
+.admin .para .sub{
+    padding-top: 20px;
+}
+
+.finance{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+
+.finance .img{
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.finance .img img{
+    width: 45vw;
+    height: 73vh;
+}
+
+.finance .para{
+    padding-left: 50px;
+}
+
+.finance .para p{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.finance .para ul{
+    padding-left: 60px;
+}
+
+.finance .para ul li{
+    list-style-type:circle;
+}
+
+.finance .para .sub{
+    padding-top: 20px;
+}
+
+.MIS{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.MIS .img{
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.MIS .img img{
+    width: 45vw;
+    height: 60vh;
+}
+
+.MIS .para{
+    padding-right: 50px;
+}
+
+.MIS .para p{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 1.1rem;
+}
+
+.MIS .para ul{
+    padding-left: 60px;
+}
+
+.MIS .para ul li{
+    list-style-type:circle;
+}
+
+.MIS .para .sub{
+    padding-top: 20px;
+}
+
+.Marketing{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.Marketing .img{
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.Marketing .img img{
+    width: 45vw;
+    height: 72vh;
+}
+
+.Marketing .para{
+    padding-left: 50px;
+}
+
+.Marketing .para p{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.Marketing .para ul{
+    padding-left: 60px;
+}
+
+.Marketing .para ul li{
+    list-style-type:circle;
+}
+
+.Marketing .para .sub{
+    padding-top: 20px;
+}
+
+.HRM{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+}
+
+.HRM .img{
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.HRM .img img{
+    width: 45vw;
+    height: 65vh;
+}
+
+.HRM .para{
+    padding-left: 50px;
+}
+
+.HRM .para p{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 1.1rem;
+}
+
+.HRM .para ul{
+    padding-left: 60px;
+}
+
+.HRM .para ul li{
+    list-style-type:circle;
+}
+
+.HRM .para .sub{
+    padding-top: 20px;
+}
+
+.page_up{
+    margin-left: 90vw;
+    min-height: 20vh;
+}
+
+.page_up a{
+    font-size: 3rem;
+    transition: .5s;
+    color: #0ac5c2;
+}
+
+.page_up a:hover{
+    font-size: 3.5rem;
+    color: #1815af;
+}

@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+#ua {
+  margin: 0 auto;
+  width: 370px;
+  height: 250px;
+  margin-left: 38px;
+  align-items: center;
+  border: solid;
+}
+.Animg {
+  float: left;
+  margin-right: 35px;
+  border: solid;
+  width: 300px;
+  height: 200px;
+}
+
+#div2 {
+  margin-top: 50px;
+}
+#div3 {
+  margin-top: 170px;
+}
+h1 {
+  color: rgb(252, 101, 242);
+  font-family: "Times New Roman", Times, serif;
+
+  text-align: center;
+}
+h6 {
+  color: rgb(255, 255, 255);
+}
+blockquote {
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  text-indent: 25px;
+  font-size: large;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  text-align: justify;
+  text-indent: 25px;
+}
+a:link {
+  color: rgb(252, 101, 242);
+}
+a:visited {
+  color: chocolate;
+}
+a:hover {
+  color: black;
+}

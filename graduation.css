@@ -1,0 +1,19 @@
+#left {
+  display: inline-block;
+  width: 35%;
+}
+#right {
+  display: inline-block;
+  width: 35%;
+}
+#extra {
+  display: inline-block;
+  width: 28%;
+}
+h1 {
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+blockquote {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 1em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 130vh;
+    background-image: url("../img/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(3px);
+}
+
+h1 {
+    text-align: center;
+    color: #000102;
+    padding: 10px;
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #6b7873;
+}
+
+.BA {
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+}
+
+.BA a {
+    text-decoration: none;
+}
+
+.BA ul li {
+    padding: 8px;
+    color: #ee0fea;
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.BA ul li::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #1bd1c8;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.BA ul li:hover::after{
+    width: 100%;
+}
+
+.MA {
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+}
+
+.MA a {
+    text-decoration: none;
+}
+
+.MA ul li {
+    padding: 8px;
+    color: #ee0fea;
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.MA ul li::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #1bd1c8;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.MA ul li:hover::after{
+    width: 100%;
+}
